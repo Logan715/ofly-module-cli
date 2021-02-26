@@ -1,0 +1,35 @@
+{
+	"name": "@ofly/module-cli",
+	"version": "1.0.0",
+	"description": "",
+	"bin": {
+		"@ofly/create-module-cli": "bin/cli.js"
+	},
+	"scripts": {
+		"test": "NODE_ENV=development node bin/cli.js"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Logan715/ofly-module-cli.git"
+	},
+	"homepage": "https://github.com/Logan715/ofly-module-cli",
+	"keywords": [
+		"module",
+		"module-copy",
+		"copy"
+	],
+	"author": {
+		"name": "chenmingzhi",
+		"email": "cmingzhi_sdu@163.com"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"commander": "^7.1.0",
+		"fs-extra": "^9.1.0",
+		"inquirer": "^8.0.0"
+	}
+}
