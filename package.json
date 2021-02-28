@@ -1,6 +1,6 @@
 {
 	"name": "@ofly/module-cli",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "",
 	"bin": {
 		"@ofly/create-module-cli": "bin/cli.js"
@@ -30,6 +30,7 @@
 		"chalk": "^4.1.0",
 		"commander": "^7.1.0",
 		"fs-extra": "^9.1.0",
-		"inquirer": "^8.0.0"
+		"inquirer": "^8.0.0",
+		"ora": "^5.3.0"
 	}
 }
