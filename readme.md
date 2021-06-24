@@ -9,7 +9,7 @@ npm i -D @ofly/module-cli
 ## 使用
 
 ```sh
-npx @ofly/create-module-cli
+npx create-module-cli
 ```
 
 
