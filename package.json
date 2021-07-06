@@ -1,6 +1,6 @@
 {
 	"name": "@ofly/module-cli",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "",
 	"bin": {
 		"@ofly/create-module-cli": "bin/cli.js"
