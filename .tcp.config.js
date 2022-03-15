@@ -1,4 +1,11 @@
 const path = require("path");
 module.exports = {
-	targetDir: path.resolve("./src/modules"),
+	moduleDir: path.resolve("./src/modules/KeyItemProvince"),
+	templateDir: path.resolve("./.template/KeyItemProvince"),
+	tconfig: {	
+		"KeyItemProvince": "AAA",
+		"FOCUS": "AAA",
+		"focus": "aaa",
+		"itemFocus": "itemAAA"
+	},
 };

@@ -33,7 +33,7 @@ module.exports = {
 	/**
 	 * 模版拷贝的目标
 	 */
-	targetDir: path.resolve("./src"),
+	moduleDir: path.resolve("./src"),
 	/**
 	 * 可替换文件后缀
 	 */
@@ -43,7 +43,7 @@ module.exports = {
 
 `templateDir`: 模版目录
 
-`targetDir`: 模版拷贝的目标
+`moduleDir`: 模版拷贝的目标
 
 `enabledReplaceSuffix`: 可替换文件后缀
 
